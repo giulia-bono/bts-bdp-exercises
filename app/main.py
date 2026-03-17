@@ -13,6 +13,11 @@ def hello(name: str):
     return {"message": f"Hello, {name}!"}
 
 
+@app.get("/info")
+def info():
+    return {"session": "S9", "topic": "DevOps & CI/CD"}
+
+
 @app.get("/health")
 def health_check():
     return {
