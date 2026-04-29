@@ -1,0 +1,5 @@
+host_id,host_name,is_superhost,updated_at
+101,Maria,true,2025-01-01
+102,Jordi,false,2025-02-15
+103,Anna,true,2025-01-20
+104,Pere,false,2025-04-01

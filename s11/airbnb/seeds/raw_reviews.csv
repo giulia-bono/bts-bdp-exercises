@@ -1,0 +1,12 @@
+review_id,listing_id,reviewer_name,review_date,comments,updated_at
+1001,1,Alice,2025-01-15,Amazing location and very clean!,2025-01-15
+1002,1,Bob,2025-02-10,Great host very responsive,2025-02-10
+1003,2,Charlie,2025-03-01,Perfect for a short stay,2025-03-01
+1004,3,Diana,2025-03-10,Loved the beach views!,2025-03-10
+1005,4,Eve,2025-02-05,Charming neighborhood,2025-02-05
+1006,5,Frank,2025-04-10,Modern and stylish,2025-04-10
+1007,2,Grace,2025-03-20,Jordi was very helpful,2025-03-20
+1008,7,Hank,2025-04-01,Incredible terrace!,2025-04-01
+1009,3,Ivy,2025-04-05,Would definitely come back,2025-04-05
+1010,1,Jack,2025-04-15,Best Airbnb in Barcelona,2025-04-15
+1011,5,Laura,2025-05-01,Absolutely stunning flat!,2025-05-01

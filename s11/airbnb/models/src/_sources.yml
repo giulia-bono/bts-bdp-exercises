@@ -1,0 +1,29 @@
+version: 2
+
+sources:
+  - name: airbnb_raw
+    schema: "{{ target.schema }}"
+    tables:
+      - name: raw_listings
+        columns:
+          - name: updated_at
+        loaded_at_field: "CAST(updated_at AS TIMESTAMP)"
+        freshness:
+          warn_after: {count: 24, period: hour}
+          error_after: {count: 48, period: hour}
+
+      - name: raw_hosts
+        columns:
+          - name: updated_at
+        loaded_at_field: "CAST(updated_at AS TIMESTAMP)"
+        freshness:
+          warn_after: {count: 24, period: hour}
+          error_after: {count: 48, period: hour}
+
+      - name: raw_reviews
+        columns:
+          - name: updated_at
+        loaded_at_field: "CAST(updated_at AS TIMESTAMP)"
+        freshness:
+          warn_after: {count: 24, period: hour}
+          error_after: {count: 48, period: hour}

@@ -1,0 +1,9 @@
+listing_id,listing_name,room_type,host_id,price,minimum_nights,updated_at
+1,Cozy apartment in Gracia,Entire home/apt,101,75,2,2025-01-01
+2,Sunny room near Sagrada Familia,Private room,102,40,1,2025-02-15
+3,Beachfront studio in Barceloneta,Entire home/apt,101,120,3,2025-03-01
+4,Gothic Quarter loft,Entire home/apt,103,95,2,2025-01-20
+5,Eixample designer flat,Entire home/apt,104,110,2,2025-04-01
+6,Raval bohemian room,Private room,102,35,1,2025-02-28
+7,Penthouse with terrace,Entire home/apt,103,200,5,2025-03-15
+8,Budget bed in Born,Shared room,104,20,1,2025-01-10
